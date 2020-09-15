@@ -7,7 +7,7 @@ config_dict['language'] = 'ru'
 
 owm = OWM('1c0e157087cb3d068e3d395128b25f37', config_dict)
 
-bot = telebot.TeleBot("1340040245:AAEUcd701hhXHFB8c_i6JsuXE2_EIszJa0c")
+bot = telebot.TeleBot("API TELEGRAM") #Вставить свой API из @botfather
 
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
